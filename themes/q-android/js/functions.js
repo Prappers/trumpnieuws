@@ -914,16 +914,4 @@ define([
             $currentContainer = $slideupPanelClones[p-1];
         }
         
-    /*
-* AdMob
-*/
- 
-if(AdMob) AdMob.createBanner({
-    adId: 'ca-app-pub-4240952659017661/6928905828', // Paste the ad unit ID we've have copied earlier
-    overlap: false,
-    offsetTopBar: false,
-    adSize: 'SMART_BANNER',
-    position: AdMob.AD_POSITION.BOTTOM_CENTER,
-    bgColor: 'black', // color name, or '#RRGGBB'
-});
 });
