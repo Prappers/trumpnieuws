@@ -916,7 +916,6 @@ define([
         
     }
     
-});
 /*
 	* AdMob
 	*/
@@ -928,8 +927,8 @@ define([
 	    adSize: 'SMART_BANNER',
 	    position: AdMob.AD_POSITION.BOTTOM_CENTER,
 	    bgColor: 'black', // color name, or '#RRGGBB'
-	});
-	});
+	}
+
 /*
 	* Appsflyer
 	*/
@@ -946,5 +945,6 @@ ocument.addEventListener("deviceready", function(){
     }
     window.plugins.appsFlyer.initSdk(options);
 }, false);
+}
 });
-	});
+
